@@ -1,0 +1,10 @@
+.service-block-two .image img {
+   height: stretch;
+}
+
+.fluid-section-one .content-column .inner-column {
+    position: relative;
+    padding: 125px 15px 0;
+    right: -358px;
+    top:-60px;
+}

@@ -1919,6 +1919,7 @@ img{
 	display:inline-block;
 	max-width:100%;
 	height:auto;	
+	
 }
 
 hr{
@@ -3956,11 +3957,13 @@ hr{
 	height: 210px;
 	width: 210px;
 	margin: -105px auto 0;
+	
 }
 
-.service-block-two .image img{
+img{
 	display: block;
 	width: 100%;
+	
 }
 
 .service-block-two h3{
@@ -4126,6 +4129,8 @@ hr{
 .service-block-five .image img{
 	display: inline-block;
 	max-width: 100%;
+	
+	
 }
 
 .service-block-five h3{	
@@ -4190,6 +4195,7 @@ hr{
 .service-block-six .image img{
 	display: inline-block;
 	max-width: 100%;
+	
 }
 
 .service-block-six h3{	
