@@ -1916,8 +1916,7 @@ body .loader_cogs__bottom div.bottom_hole {
 
 
 img{
-	display:inline-block;
-	max-width:100%;
+	display:inline-block;	
 	height:auto;	
 	
 }
@@ -3960,11 +3959,11 @@ hr{
 	
 }
 
-img{
+/* img{
 	display: block;
 	width: 100%;
 	
-}
+} */
 
 .service-block-two h3{
 	position: relative;
@@ -11343,5 +11342,4 @@ iframe#gmap_canvas {
 	height: 40px;
 	margin: 0 auto;
 };
-	margin: 0 auto;
-}
+	

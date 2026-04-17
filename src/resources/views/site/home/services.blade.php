@@ -2,7 +2,7 @@
     <div class="services-section-two">
         <div class="auto-container">
             <div class="sec-title text-center">
-                <div class="divider"><img src="{{asset('')}}" alt=""></div>
+                <div class="divider"><img src="{{asset('davilla/images/icons/divider_1.png')}}" alt=""></div>
                 <h2>Wide Choice</h2>
             </div>
 

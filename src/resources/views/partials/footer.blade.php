@@ -2,7 +2,7 @@
     <!-- Main Footer -->
     <footer class="main-footer style-two">
         <div class="shape_four_up shape_wrapper">
-            <div class="shape_inner" style="background-image: url(https://via.placeholder.com/1920x700);"><div class="overlay"></div></div>
+            <div class="shape_inner" style="background-image: url( );"><div class="overlay"></div></div>
         </div>
 
         <!--Widgets Section-->

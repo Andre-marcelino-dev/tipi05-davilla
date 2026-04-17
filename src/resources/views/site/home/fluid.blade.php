@@ -1,4 +1,8 @@
-<section class="fluid-section-one" style="background-image: url({{ asset('davilla/IMG/delightful-assortment-colorful-donuts-pastries-pink-background-perfect-dessert-lovers-food-photography.jpg') }});">
+@php
+$fluid = asset('davilla/IMG/pink-cupcakes-donuts-with-hearts-pink-background.jpg');
+@endphp
+
+<section class="fluid-section-one" style="background-image: url('{{$fluid}}');">
     <div class="outer-box clearfix">
         <div class="content-column left-column">
      
@@ -8,7 +12,7 @@
             <div class="image-box">
                 <figure class="image">
                     {{-- Caminho corrigido para a pasta public/davilla/images --}}
-                    <img src="{{ asset('davilla/images/sua-imagem.png') }}" alt="">
+                    <img src="{{asset('davilla/images/icons/divider_2_light.png')}}" alt="">
                 </figure>
             </div>
         </div>
@@ -24,4 +28,4 @@
             </div>
         </div>
     </div>
-</section>
+</section>  

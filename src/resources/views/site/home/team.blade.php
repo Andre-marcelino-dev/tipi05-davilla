@@ -1,8 +1,8 @@
    <!-- Team Section -->
-    <section class="team-section" style="background-image: url(https://via.placeholder.com/1920x800);">
+     <section class="team-section" style="background-image: url(https://via.placeholder.com/1920x800);"> -
         <div class="auto-container">
             <div class="sec-title text-center">
-                <div class="divider"><img src="images/icons/divider_2.png" alt=""></div>
+                <div class="divider"><img src="{{asset('davilla/images/icons/divider_1.png')}}" alt=""></div>
                 <h2>Our Creative Team</h2>
             </div>
 
@@ -11,7 +11,7 @@
                 <div class="team-block col-lg-3 col-md-6 col-sm-12">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><img src="https://via.placeholder.com/370x370" alt=""></figure>
+                            <figure class="image"><img src="" alt=""></figure>
                             <ul class="social-links">
                                 <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
                                 <li><a href="#"><span class="fab fa-twitter"></span></a></li>
@@ -29,7 +29,7 @@
                 <div class="team-block col-lg-3 col-md-6 col-sm-12">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><img src="https://via.placeholder.com/370x370" alt=""></figure>
+                            <figure class="image"><img src="" alt=""></figure>
                             <ul class="social-links">
                                 <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
                                 <li><a href="#"><span class="fab fa-twitter"></span></a></li>
@@ -47,7 +47,7 @@
                 <div class="team-block col-lg-3 col-md-6 col-sm-12">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><img src="https://via.placeholder.com/370x370" alt=""></figure>
+                            <figure class="image"><img src="" alt=""></figure>
                             <ul class="social-links">
                                 <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
                                 <li><a href="#"><span class="fab fa-twitter"></span></a></li>
@@ -65,7 +65,7 @@
                 <div class="team-block col-lg-3 col-md-6 col-sm-12">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><img src="https://via.placeholder.com/370x370" alt=""></figure>
+                            <figure class="image"><img src="" alt=""></figure>
                             <ul class="social-links">
                                 <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
                                 <li><a href="#"><span class="fab fa-twitter"></span></a></li>
