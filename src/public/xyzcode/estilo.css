@@ -2,11 +2,25 @@
    height: stretch;
 }
 
-.fluid-section-one .content-column .inner-column {
+.right-column h2 {
     position: relative;
-    padding: 125px 15px 0;
-    right: -358px;
-    top:-60px;
+    top:60px;
+    right:-100px;
+    text-align: center;
+    width: 100%; /* Garante que ele use todo o espaço para calcular o centro */
+    display: block; /* Caso haja algum float ou posicionamento estranho */
+    z-index: 999999;
+  
+}
+.right-column p {
+    bottom:80px;
+    position: relative;
+    left:780px;
+    text-align: center;
+    width: 100%; /* Garante que ele use todo o espaço para calcular o centro */
+    display: block; /* Caso haja algum float ou posicionamento estranho */
+    z-index: 999999;
+    font-size: 16px;
 }
 
 .divider {
@@ -20,4 +34,26 @@
     margin: center;
 }
 
- 
+.inner-column-logo{
+ /* display: flex; */
+ position: relative;
+ left:350px;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    width: 30px; 
+    height: 30px;
+        top:-160px;
+}
+
+
+.image1{
+    position: relative;
+    right:70px;
+    top:50px;
+   
+}
+
+.inner-column p{
+    z-index: 999999;
+   padding: 30px;
+}
