@@ -1,7 +1,7 @@
 <!-- Features Section Two -->
 
 @php
-    $features = asset('davilla/IMG/there-are-many-different-types-pastries-pink-plate.jpg');
+    $features = asset('davilla/IMG/banner3.png');
 @endphp
 <div class="features-section-two">
     <div class="shape_wrapper shape_four_up">
@@ -26,7 +26,7 @@
                         <!-- cake img -->
                         <div class="icon flaticon-food-6"></div>
                     </div>
-                    <h3>Tradition</h3>
+                    <h3>Tradição</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc feugiat risus quam, eget varius
                         metus gravida vel.</p>
                     <div class="btn-box">
@@ -51,7 +51,7 @@
                         <!-- cake img -->
                         <div class="icon flaticon-food-13"></div>
                     </div>
-                    <h3>Creatiwity</h3>
+                    <h3>Creatividade</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc feugiat risus quam, eget varius
                         metus gravida vel.</p>
                     <div class="btn-box">
@@ -76,7 +76,7 @@
                         <!-- cake img -->
                         <div class="icon flaticon-food-14"></div>
                     </div>
-                    <h3>Passion</h3>
+                    <h3>Paixão</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc feugiat risus quam, eget varius
                         metus gravida vel.</p>
                     <div class="btn-box">

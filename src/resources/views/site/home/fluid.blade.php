@@ -1,42 +1,61 @@
-  <!-- Fluid Section one -->
-
-  @php
-      $fluid = asset('davilla/IMG/assorted-delicious-cookies-pastries-with-berries-dark-background.jpg');
-  @endphp
-  <section class="fluid-section-one" style="background-image: url('{{ $fluid }}');">
-      <div class="outer-box clearfix">
-          <!-- Content Column -->
-          <div class="content-column left-column">
-              <div class="inner-column">
-                  <h2>A Melhor <br>Confeitaria da Região zona Leste</h2>
-
-     <p style="
-    text-align: justify; 
-    hyphens: auto; 
-    font-size: 1.5rem; 
-    line-height: 1.4; 
-    color: #222; 
-    text-shadow: 1px 1px 2px rgba(255,255,255,0.8);
+<!-- Fluid Section one -->
+@php
+    $fluid = asset('davilla/IMG/there-are-many-different-types-pastries-pink-plate.jpg');
+@endphp
+<section class="fluid-section-one" style="background-image: url({{ $fluid }});">
+    <div class="outer-box clearfix">
+        <!-- Content Column -->
+        <div class="content-column left-column">
+            <div class="inner-column">
+<h2 style="
+    color: #FFFFFF; 
+    font-weight: 800;
+    font-size: 3.8rem;         /* Diminuído levemente para melhor encaixe */
+    line-height: 1.05;         /* Linhas mais próximas para um visual 'bold' e moderno */
+    letter-spacing: -2px;      /* Letras mais juntas para impacto visual */
+    text-align: center;        /* Centralizado para harmonia */
+    margin-bottom: 20px;
 ">
-    Na <span style="color: #d81b60; font-weight: bold; border-bottom: 2px solid #ffb6c1;">Confeitaria Davilla</span>, 
-    o aroma do café fresquinho encontra a delicadeza da nossa confeitaria artesanal. 
-    Nossos <span style="font-style: italic;">bolos</span> são criados com massas leves, 
-    enquanto nossos <span style="font-style: italic;">doces</span> trazem o equilíbrio perfeito. 
-    Oferecemos o cenário ideal para você saborear o que a vida tem de 
-    <strong style="text-transform: uppercase; letter-spacing: 1px;">mais doce</strong>.
-</p>
+    Sabor que Marca,<br>
+    <span style="
+        color: #d81b60; 
+        letter-spacing: 1px;   /* Aumenta o respiro na linha de destaque */
+        font-size: 0.9em;      /* Proporcionalmente menor que a linha de cima */
+        display: block;
+        margin-top: 5px;
+    ">
+        Tradição que Encanta.
+    </span>
+</h2>
 
-              </div>
-          </div>
+                <p style="color: #d81b60; font-size: 1.1rem; line-height: 1.6; opacity: 0.9; max-width: 450px;">
+                    Dos clássicos bolos caseiros aos doces finos mais sofisticados.
+                    Na <span style="font-weight: bold; color: #0e0c0c;">Davilla</span>, cada receita é uma celebração de
+                    sabor
+                    pensada para tornar o seu momento ainda mais especial.
+                </p>
+                <div class="btn-box">
+                    <a href="#" class="theme-btn btn-style-two large alt"
+                        style="font-size: 1.2rem; color:#FFFFFF;: 10px 20px;">
+                        <span></span>Confira nossa vitrine<span></span>
+                    </a>
+                </div>
+            </div>
+        </div>
 
-          <!-- Image Column -->
-          <div class="image-column">
-              <div class="image-box">
-                  <figure class="image1"><img src="{{ asset('davilla/IMG/chefe.png') }}" alt=""></figure>
-              </div>
-          </div>
+        <!-- Image Column -->
+        <div class="image-column">
+            <div class="image-box">
+                <figure class="image"><img src="https://via.placeholder.com/482x510" alt=""></figure>
+            </div>
+        </div>
+        <!-- Content Column -->
+        <div class="content-column right-column">
+            <div class="inner-column">
 
-      </div>
-      </div>
-  </section>
-  <!--End Fluid Section one -->
+
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Fluid Section one -->

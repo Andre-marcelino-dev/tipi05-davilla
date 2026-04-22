@@ -1,12 +1,12 @@
     <!-- Testimonial Section Two -->
     @php
-        $features = asset(
+        $testimonial = asset(
             'davilla/IMG/banner3.png',
         );
     @endphp
     <section class="testimonial-section-two">
         <div class="shape_wrapper shape_four_up">
-            <div class="shape_inner shape_four_down" style="background-image: url('{{ $features }}');"></div>
+            <div class="shape_inner shape_four_down" style="background-image: url('{{ $testimonial }}');"></div>
         </div>
 
         <div class="auto-container">

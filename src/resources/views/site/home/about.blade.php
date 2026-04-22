@@ -1,5 +1,5 @@
  <!-- About Section -->
- <section class="about-section" style="background-image: url( );">
+ <section class="about-section" style="background-image: url('' );">
      <div class="auto-container">
 
          <div class="sec-title text-center">
@@ -18,16 +18,7 @@
 
                  Descubra o prazer de saborear o extraordinário. 🍰✨
              </p>
-             <ul class="feature-list clearfix">
-                 <li>Tradition</li>
-                 <li>Quality</li>
-                 <li>Creatyvity</li>
-                 <li>Passion</li>
-             </ul>
-             <!-- Btn Box -->
-             <div class="btn-box">
-                 <a href="#" class="theme-btn btn-style-two regular bg-pink"><span></span>Read About Us<span></span></a>
-             </div>
+            
          </div>
      </div>
  </section>
