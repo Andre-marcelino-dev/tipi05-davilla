@@ -1,5 +1,10 @@
    <!-- Team Section -->
-     <section class="team-section" style="background-image: url(https://via.placeholder.com/1920x800);"> -
+     
+   
+@php
+$team = asset('davilla/IMG/banner-lara.png')
+@endphp
+   <section class="team-section" style="background-image: url('{{$team}}');"> -
         <div class="auto-container">
             <div class="sec-title text-center">
                 <div class="divider"><img src="{{asset('davilla/images/icons/divider_1.png')}}" alt=""></div>
@@ -11,7 +16,7 @@
                 <div class="team-block col-lg-3 col-md-6 col-sm-12">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><img src="" alt=""></figure>
+                            <figure class="image"><img src="{{asset('davilla/IMG/chefe7.jpg')}}" alt=""></figure>
                             <ul class="social-links">
                                 <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
                                 <li><a href="#"><span class="fab fa-twitter"></span></a></li>
@@ -29,7 +34,7 @@
                 <div class="team-block col-lg-3 col-md-6 col-sm-12">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><img src="" alt=""></figure>
+                            <figure class="image"><img src="{{asset('davilla/IMG/chefe8.jpg')}}}" alt=""></figure>
                             <ul class="social-links">
                                 <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
                                 <li><a href="#"><span class="fab fa-twitter"></span></a></li>
@@ -47,7 +52,7 @@
                 <div class="team-block col-lg-3 col-md-6 col-sm-12">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><img src="" alt=""></figure>
+                            <figure class="image"><img src="{{asset('davilla/IMG/chefe9.jpg')}}" alt=""></figure>
                             <ul class="social-links">
                                 <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
                                 <li><a href="#"><span class="fab fa-twitter"></span></a></li>
@@ -65,7 +70,7 @@
                 <div class="team-block col-lg-3 col-md-6 col-sm-12">
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><img src="" alt=""></figure>
+                            <figure class="image"><img src="{{asset('davilla/IMG/chefe10.jpg')}}" alt=""></figure>
                             <ul class="social-links">
                                 <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
                                 <li><a href="#"><span class="fab fa-twitter"></span></a></li>

@@ -9,7 +9,7 @@ $features = asset('davilla/IMG/sweetest-day-poster-frame-border-with-pastel-back
 
         <div class="auto-container">
             <div class="sec-title light text-center">
-                <div class="divider"><img src="{{asset('davilla/images/icons/divider_2_light.png')}}" alt=""></div>
+                <div class="divider"><img src="{{asset('davilla/IMG/depo.png')}}" alt=""></div>
                 <h2>Sweet Workshopes</h2>
             </div>
 
