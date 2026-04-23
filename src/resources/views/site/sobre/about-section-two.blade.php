@@ -1,5 +1,8 @@
     <!-- About Section Two -->
-    <section class="about-section-two alternate" style="background-image: url(http://html.cwsthemes.com/bellaria/images/background/36.jpg);">
+     @php
+     $sobre = asset('davilla/IMG/bannerbolocerto.png')
+     @endphp
+    <section class="about-section-two alternate" style="background-image: url('{{ $sobre }}');">
         <div class="auto-container">
             <div class="sec-title text-center">
                 <div class="divider"><img src="images/icons/divider_1.png" alt=""></div>

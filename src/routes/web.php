@@ -21,7 +21,7 @@ Route::get('/pedidos',[PedidosController::class, 'pedidos'])->name('pedidos');
 Route::get('/regiao',[RegiaoController::class, 'regiao'])->name('regiao.index');
 
 /** Submenu  de Regiao */
-Route::get('/rigao/area/id', [RegiaoController::class, 'show'])->name('regiao.area');
+Route::get('/regiao/area/id', [RegiaoController::class, 'show'])->name('regiao.area');
  
 Route::get('/contato',[ContatoController::class, 'contato'])->name('contato');
 
