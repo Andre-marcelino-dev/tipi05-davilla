@@ -4,7 +4,16 @@
 
 
 
-<h1></h1>
+    @include('site.cardapio.pagetitle')
+    @include('site.cardapio.portifolio')
+    
+    
+   
+
+   
+   
+
+
 
 
 
