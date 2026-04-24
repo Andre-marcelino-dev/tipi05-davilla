@@ -2,7 +2,7 @@
     @php
         $ourStandards = asset('davilla/IMG/img39.png');
     @endphp
-    <section class="our-standards" style="background-image: url({{ $ourStandards }});">
+    <section class="our-standards" style="background-image: url('{{ $ourStandards }}');">
         <div class="auto-container">
             <div class="row">
                 <div class="content-column col-lg-6 col-md-12 col-sm-12">              

@@ -3,8 +3,9 @@
 @section('content')
 
 
+@include('site.pedidos.page-pedidos')
+@include('site.pedidos.sider-bar')
 
-<h1>Pedido""""""""""!!!!!!!</h1>
 
 
 
