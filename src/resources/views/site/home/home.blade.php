@@ -10,7 +10,9 @@
         @include('site.home.portifilio')
         @include('site.home.features')
         @include('site.home.services')
+        @include('site.home.recipes')
         @include('site.home.testimonial')
+        @include('site.home.princing')
         @include('site.home.team')
 
 

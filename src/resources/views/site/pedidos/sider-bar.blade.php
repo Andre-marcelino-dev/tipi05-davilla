@@ -7,10 +7,10 @@
                 <div class="content-side col-lg-9 col-md-12 col-sm-12">
                     <div class="our-shop">
                         <div class="shop-upper-box clearfix">
-                            <div class="items-label">Showing all 12 results</div>
+                            <div class="items-label">Exibindo todos os 12 resultados</div>
                             <div class="orderby">
                                 <select name="orderby" class="sortby-select select2-offscreen">
-                                    <option value="popularity">Sort by popularity</option>
+                                    <option value="popularity">Ordenar por popularidade</option>
                                     <option value="rating" >Sort by average rating</option>
                                     <option value="date" >Sort by newness</option>
                                     <option value="price" >Sort by price: low to high</option>
@@ -28,7 +28,7 @@
                                 <div class="inner-box">
                                     <div class="image-box">
                                         <div class="sale-tag">sale!</div>
-                                        <figure class="image"><a href="shop-single.html"><img src="https://via.placeholder.com/300x300" alt=""></a></figure>
+                                        <figure class="image"><a href="shop-single.html"><img src="{{asset('davilla/produtos/12.jpg')}}" alt=""></a></figure>
                                         <div class="btn-box"><a href="shopping-cart.html">Add to cart</a></div>
                                     </div>
                                     <div class="lower-content">
@@ -43,7 +43,7 @@
                             <div class="shop-item col-lg-4 col-md-6 col-sm-12">
                                 <div class="inner-box">
                                     <div class="image-box">
-                                        <figure class="image"><a href="shop-single.html"><img src="https://via.placeholder.com/300x300" alt=""></a></figure>
+                                        <figure class="image"><a href="shop-single.html"><img src="{{asset('davilla/produtos/10.jpg')}}" alt=""></a></figure>
                                         <div class="btn-box"><a href="shopping-cart.html">Add to cart</a></div>
                                     </div>
                                     <div class="lower-content">
@@ -58,7 +58,7 @@
                             <div class="shop-item col-lg-4 col-md-6 col-sm-12">
                                 <div class="inner-box">
                                     <div class="image-box">
-                                        <figure class="image"><a href="shop-single.html"><img src="https://via.placeholder.com/300x300" alt=""></a></figure>
+                                        <figure class="image"><a href="shop-single.html"><img src="{{asset('davilla/produtos/5.jpg')}}" alt=""></a></figure>
                                         <div class="btn-box"><a href="shopping-cart.html">Add to cart</a></div>
                                     </div>
                                     <div class="lower-content">
@@ -73,7 +73,7 @@
                             <div class="shop-item col-lg-4 col-md-6 col-sm-12">
                                 <div class="inner-box">
                                     <div class="image-box">
-                                        <figure class="image"><a href="shop-single.html"><img src="https://via.placeholder.com/300x300" alt=""></a></figure>
+                                        <figure class="image"><a href="shop-single.html"><img src="{{asset('davilla/produtos/4.jpg')}}" alt=""></a></figure>
                                         <div class="btn-box"><a href="shopping-cart.html">Add to cart</a></div>
                                     </div>
                                     <div class="lower-content">
@@ -88,7 +88,7 @@
                             <div class="shop-item col-lg-4 col-md-6 col-sm-12">
                                 <div class="inner-box">
                                     <div class="image-box">
-                                        <figure class="image"><a href="shop-single.html"><img src="https://via.placeholder.com/300x300" alt=""></a></figure>
+                                        <figure class="image"><a href="shop-single.html"><img src="{{asset('davilla/produtos/8.jpg')}}" alt=""></a></figure>
                                         <div class="btn-box"><a href="shopping-cart.html">Add to cart</a></div>
                                     </div>
                                     <div class="lower-content">
@@ -104,7 +104,7 @@
                                 <div class="inner-box">
                                     <div class="image-box">
                                         <div class="sale-tag">sale!</div>
-                                        <figure class="image"><a href="shop-single.html"><img src="https://via.placeholder.com/300x300" alt=""></a></figure>
+                                        <figure class="image"><a href="shop-single.html"><img src="{{asset('davilla/produtos/3.jpg')}}" alt=""></a></figure>
                                         <div class="btn-box"><a href="shopping-cart.html">Add to cart</a></div>
                                     </div>
                                     <div class="lower-content">
@@ -119,7 +119,7 @@
                             <div class="shop-item col-lg-4 col-md-6 col-sm-12">
                                 <div class="inner-box">
                                     <div class="image-box">
-                                        <figure class="image"><a href="shop-single.html"><img src="https://via.placeholder.com/300x300" alt=""></a></figure>
+                                        <figure class="image"><a href="shop-single.html"><img src="{{asset('davilla/produtos/6.jpg')}}" alt=""></a></figure>
                                         <div class="btn-box"><a href="shopping-cart.html">Add to cart</a></div>
                                     </div>
                                     <div class="lower-content">
@@ -134,7 +134,7 @@
                             <div class="shop-item col-lg-4 col-md-6 col-sm-12">
                                 <div class="inner-box">
                                     <div class="image-box">
-                                        <figure class="image"><a href="shop-single.html"><img src="https://via.placeholder.com/300x300" alt=""></a></figure>
+                                        <figure class="image"><a href="shop-single.html"><img src="{{asset('davilla/produtos/7.jpg')}}" alt=""></a></figure>
                                         <div class="btn-box"><a href="shopping-cart.html">Add to cart</a></div>
                                     </div>
                                     <div class="lower-content">
@@ -149,7 +149,7 @@
                             <div class="shop-item col-lg-4 col-md-6 col-sm-12">
                                 <div class="inner-box">
                                     <div class="image-box">
-                                        <figure class="image"><a href="shop-single.html"><img src="https://via.placeholder.com/300x300" alt=""></a></figure>
+                                        <figure class="image"><a href="shop-single.html"><img src="{{asset('davilla/produtos/9.jpg')}}" alt=""></a></figure>
                                         <div class="btn-box"><a href="shopping-cart.html">Add to cart</a></div>
                                     </div>
                                     <div class="lower-content">
@@ -164,7 +164,7 @@
                             <div class="shop-item col-lg-4 col-md-6 col-sm-12">
                                 <div class="inner-box">
                                     <div class="image-box">
-                                        <figure class="image"><a href="shop-single.html"><img src="https://via.placeholder.com/300x300" alt=""></a></figure>
+                                        <figure class="image"><a href="shop-single.html"><img src="{{asset('davilla/produtos/11.jpg')}}" alt=""></a></figure>
                                         <div class="btn-box"><a href="shopping-cart.html">Add to cart</a></div>
                                     </div>
                                     <div class="lower-content">
@@ -180,7 +180,7 @@
                                 <div class="inner-box">
                                     <div class="image-box">
                                         <div class="sale-tag">sale!</div>
-                                        <figure class="image"><a href="shop-single.html"><img src="https://via.placeholder.com/300x300" alt=""></a></figure>
+                                        <figure class="image"><a href="shop-single.html"><img src="{{asset('davilla/produtos/2.jpg')}}" alt=""></a></figure>
                                         <div class="btn-box"><a href="shopping-cart.html">Add to cart</a></div>
                                     </div>
                                     <div class="lower-content">
@@ -195,7 +195,7 @@
                             <div class="shop-item col-lg-4 col-md-6 col-sm-12">
                                 <div class="inner-box">
                                     <div class="image-box">
-                                        <figure class="image"><a href="shop-single.html"><img src="https://via.placeholder.com/300x300" alt=""></a></figure>
+                                        <figure class="image"><a href="shop-single.html"><img src="{{asset('davilla/produtos/1.jpg')}}" alt=""></a></figure>
                                         <div class="btn-box"><a href="shopping-cart.html">Add to cart</a></div>
                                     </div>
                                     <div class="lower-content">
@@ -231,7 +231,7 @@
                                     <div class="shopping-cart">
                                         <ul class="shopping-cart-items">
                                             <li class="cart-item">
-                                                <img src="https://via.placeholder.com/300x300" alt="#" class="thumb" />
+                                                <img src="{{asset('davilla/produtos/10.jpg')}}" alt="#" class="thumb" />
                                                 <span class="item-name">Birthday Cake</span>
                                                 <span class="item-quantity">1 x <span class="item-amount">$84.00</span></span>
                                                 <a href="shop-single.html" class="product-detail"></a>
@@ -239,7 +239,7 @@
                                             </li>
 
                                             <li class="cart-item">
-                                                <img src="https://via.placeholder.com/300x300" alt="#" class="thumb"  />
+                                                <img src="{{asset('davilla/produtos/5.jpg')}}" alt="#" class="thumb"  />
                                                 <span class="item-name">French Macaroon</span>
                                                 <span class="item-quantity">1 x <span class="item-amount">$13.00</span></span>
                                                 <a href="shop-single.html" class="product-detail"></a>

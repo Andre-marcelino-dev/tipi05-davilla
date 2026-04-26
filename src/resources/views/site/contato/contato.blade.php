@@ -4,7 +4,8 @@
 
 
 
-
+@include('site.contato.contact')
+@include('site.contato.mapa')
 
 
 
