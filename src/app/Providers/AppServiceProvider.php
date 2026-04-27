@@ -2,7 +2,10 @@
 
 namespace App\Providers;
 
+use App\Models\Categoria;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\View;
+// use Illuminate\View\View;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -19,6 +22,17 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        View::composer('partials.header', function ($view){
+
+
+            // BUSCA TODAS AS CATEGORIAS ORDENAR POR NOME
+            $categorias = Categoria::orderBy('nome_categoria')->get();
+
+            var_dump($categorias);
+
+            $view->with('categorias', $categorias);
+
+
+        });
     }
 }

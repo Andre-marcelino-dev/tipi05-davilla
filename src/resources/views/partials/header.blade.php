@@ -16,10 +16,10 @@
                             <ul class="navigation menu-left clearfix">
                                 <li><a href="{{ route('home') }}">Home</a></li>
                                 <li><a href="{{ route('sobre') }}">Sobre</a></li>
-                                <li class="dropdown"><a href="{{ route('cardapio') }}">Cardápio</a>
+                                <li class="dropdown"><a href="{{ route('cardapio.index') }}">Cardápio</a>
                                     <ul>
                                         <li><a href="#">Bolos </a></li>
-                                        <li><a href="#">Doces </a></li>
+                                        
                                     </ul>
                                 </li>
                             </ul>
