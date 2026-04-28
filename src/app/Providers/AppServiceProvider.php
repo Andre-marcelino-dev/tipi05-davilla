@@ -28,7 +28,8 @@ class AppServiceProvider extends ServiceProvider
             // BUSCA TODAS AS CATEGORIAS ORDENAR POR NOME
             $categorias = Categoria::orderBy('nome_categoria')->get();
 
-            var_dump($categorias);
+            // var_dump($categorias);
+            
 
             $view->with('categorias', $categorias);
 
