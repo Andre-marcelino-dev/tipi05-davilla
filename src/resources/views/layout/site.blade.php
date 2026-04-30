@@ -36,7 +36,10 @@
     <span class="fa fa-angle-up"></span>
 </div>
 
-    @include('partials.script')
+
     
+    @include('partials.script')
+    @stack('plugins')
+    <script src="{{asset('davilla/js/script.js')}}"></script>
 </body>
 </html>

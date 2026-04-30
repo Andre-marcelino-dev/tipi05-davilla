@@ -8,16 +8,9 @@
     @include('site.cardapio.portifolio')
    
    
-    
-    
-   
 
-   
-   
-
-
-
-
-
+@push('plugins')
+<script src="{{ asset('davilla/js/mixitup.js') }}"></script>
+@endpush
 
 @endsection
