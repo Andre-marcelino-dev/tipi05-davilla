@@ -7,7 +7,7 @@ use App\Models\Produto;
 
 class Categoria extends Model
 {
-    protected $table = 'tbl_categorias';
+    protected $table = 'tbl_categoria';
     protected $primaryKey = 'id_categoria';
 
 

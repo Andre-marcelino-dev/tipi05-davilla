@@ -12,7 +12,7 @@
                         <div class="basic-details">
                             <div class="row clearfix">
                                 <div class="image-column col-md-6 col-sm-12">
-                                    <figure class="image"><a href="{{asset('davilla/images/'.$produto->foto_produto)}}" class="lightbox-image" title="Image Caption Here"><img src="{{ asset('davilla/images/'. $produto->foto_produto) }}" alt=""><span class="icon fa fa-search"></span></a></figure>
+                                    <figure class="image"><a href="{{ asset('davilla/produto'. $produto->foto_produto) }}" class="lightbox-image" title="Image Caption Here"><img src="{{ asset('davilla/images/'. $produto->foto_produto) }}"alt=""><span class="icon fa fa-search"></span></a></figure>
                                 </div>
                                 <div class="info-column col-md-6 col-sm-12">
                                     <div class="details-header">
