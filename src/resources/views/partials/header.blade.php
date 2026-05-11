@@ -6,7 +6,7 @@
         <!-- Main box -->
         <div class="main-box">
             <div class="menu-box">
-                <div class="logo"><a href="index.html"><img src="{{ asset('davilla/IMG/logo-davilla.svg') }}" alt="" title=""></a></div>
+                <div class="logo"><a href="index.html"><img src="{{ asset('davilla/images/the-gusta-logo.svg') }}" alt="" title=""></a></div>
 
                 <!--Nav Box-->
                 <div class="nav-outer clearfix">
@@ -18,15 +18,10 @@
                                 <li><a href="{{ route('sobre') }}">Sobre</a></li>
                                 <li class="dropdown"><a href="{{ route('cardapio.index') }}">Cardápio</a>
                                     <ul>
-                                        @forelse($categorias as $linha)
-
-                                        <li>
-                                            <a href="{{ route('cardapio.categoria', $linha->id_categoria) }}">
-                                                {{ $linha->nome_categoria }} 
-                                            </a>
-                                        </li>
-                                        @empty
-                                        <li>Nenhuma Categoria </li>
+                                        @forelse($lista as $linha)
+                                        <li><a href="{{ route('cardapio.categoria',$linha->id_categoria) }}">{{ $linha->nome_categoria }}</a></li>
+                                        @Empty
+                                        <li>Nenhuma Categoria</li>
                                         @endforelse
                                     </ul>
                                 </li>
@@ -96,7 +91,7 @@
             <div class="auto-container clearfix">
                 <!--Logo-->
                 <div class="logo">
-                    <a href="#" title="Sticky Logo"><img src="{{ asset('davilla/IMG/logo-davilla.svg') }}"  alt="Sticky Logo"></a>
+                    <a href="#" title="Sticky Logo"><img src="{{ asset('davilla/images/the-gusta-texto.svg') }}" alt="Sticky Logo"></a>
                 </div>
 
                 <!--Nav Outer-->

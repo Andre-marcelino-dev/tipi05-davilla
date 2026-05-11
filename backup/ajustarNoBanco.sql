@@ -104,7 +104,7 @@ INSERT INTO tbl_produtos
     id_categoria,
     descricao_produto,
     tamanho_produto,
-    unid_medida_produto,
+    unid_med_produto,
     valor_produto,
     foto_produto,
     status_produto,

@@ -2,16 +2,11 @@
 
 @section('content')
 
-
 @include('site.sobre.page-title')
-@include('site.sobre.about-section-two')
-@include('site.sobre.features-section')
-@include('site.sobre.chefe-section')
-@include('site.sobre.testimonial-section')
+@include('site.sobre.about')
+@include('site.sobre.features')
+@include('site.sobre.chef')
+@include('site.sobre.testimonial')
 @include('site.sobre.our-standards')
-
-
-
-
 
 @endsection

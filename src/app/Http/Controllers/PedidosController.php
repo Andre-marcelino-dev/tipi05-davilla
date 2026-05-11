@@ -6,7 +6,8 @@ use Illuminate\Http\Request;
 
 class PedidosController extends Controller
 {
-        public function pedidos(){
+    public function pedidos()
+    {
         return view('site.pedidos.pedidos');
     }
 }

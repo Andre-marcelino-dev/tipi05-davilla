@@ -1,5 +1,8 @@
- <!--Page Title-->
-     <section class="page-title" style="background-image:url(http://html.cwsthemes.com/bellaria/images/background/34.jpg)">
+    <!--Page Title-->
+    @php
+    $pageTitle = asset('davilla/images/34.jpg');
+    @endphp
+    <section class="page-title" style="background-image:url('{{ $pageTitle }}')">
         <div class="auto-container">
             <h1>About Us</h1>
             <ul class="page-breadcrumb">
@@ -9,5 +12,3 @@
         </div>
     </section>
     <!--End Page Title-->
-
-    

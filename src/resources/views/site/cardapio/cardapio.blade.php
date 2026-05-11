@@ -2,12 +2,17 @@
 
 @section('content')
 
+@include('site.cardapio.page-title')
+@include('site.cardapio.portfolio-section')
+
+@endsection
 
 
-    @include('site.cardapio.pagetitle')
-    @include('site.cardapio.portifolio')
-   
-   
+{{-- Plugin usado apenas nesta página.
+
+    O mixitup.js é responsável pelos filtros/animações da galeria.
+    Ele não deve ficar no script global para evitar carregar código desnecessário em páginas que não usam galeria.
+--}}
 
 @push('plugins')
 <script src="{{ asset('davilla/js/mixitup.js') }}"></script>
@@ -17,15 +22,13 @@
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         const filtroInicial = "{{ $categoriaAtiva }}";
- 
+
         if (filtroInicial !== 'all') {
             const botao = document.querySelector(`[data-filter="${filtroInicial}"]`);
- 
+
             if (botao) {
                 botao.click();
             }
         }
     });
 </script>
-
-@endsection
